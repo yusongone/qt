@@ -137,42 +137,43 @@ config.tests/qmf/qmf
 config.tests/maemo5-contacts/maemo5-contacts
 config.tests/bluez/bluez
  
- .qmake.cache
- translations/qtmobility_untranslated.ts
- translations/qtmobility_*.qm
+.qmake.cache
+translations/qtmobility_untranslated.ts
+translations/qtmobility_*.qm
+*.pro.user
+=======
+*.pro.user*
+*~
+
+#QtCreator project files
   
 #Symbian specific
-  *.mmp
-  *.pkg
-  bld.inf*
-  ABLD.BAT
-  *.mk
-  *.rss
-  *.sis
-  *.loc
-  *.sisx
-  .make.cache
-  qmakepluginstubs
+*.mmp
+*.pkg
+bld.inf*
+ABLD.BAT
+*.mk
+*.rss
+*.sis
+*.loc
+*.sisx
+.make.cache
+qmakepluginstubs
    
 #Carbide project files
-   *.project
-   *.cproject
-   *.settings
-   plugin_commonU.def
+*.project
+*.cproject
+*.settings
+plugin_commonU.def
     
 #Visual Studio files
-    *.sln
-    *.vcproj
-    *.suo
-    *.ncb
-    *.user
+*.sln
+*.vcproj
+*.suo
+*.ncb
+*.user
      
-#QtCreator project files
-     *.pro.user
-     =======
-     *.pro.user*
-     *~
       
 # Failed patch
-      *.orig
-      *.rej
+*.orig
+*.rej

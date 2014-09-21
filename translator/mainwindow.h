@@ -27,6 +27,7 @@ private:
     Ui::MainWindow *ui;
     QNetworkAccessManager *manager;
     QUrl qurl;
+    QVariant keepCookie;
 };
 
 #endif // MAINWINDOW_H

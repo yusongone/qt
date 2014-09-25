@@ -57,7 +57,7 @@ void MainWindow::on_translate_clicked()
 
     QNetworkRequest req;
     //qurl=QUrl("http://www.mutuke.com");
-    qurl=QUrl("http://localhost:3220/letdoit");
+    qurl=QUrl("http://localhost:3420/");
     req.setUrl(qurl);
     //req.setHeader(QNetworkRequest::ContentTypeHeader, "application/x-www-form-urlencoded");
     req.setHeader(QNetworkRequest::ContentTypeHeader, "text/html");
